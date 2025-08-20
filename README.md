@@ -22,5 +22,5 @@ Codes to be used in [turingmachine.io](https://turingmachine.io/):
 - Data Copy
 
 ### References
-- Horowitz, E. *Fundamentals of Computer Algorithms* [https://kailash392.wordpress.com/wp-content/uploads/2019/02/fundamentalsof-computer-algorithms-by-ellis-horowitz.pdf](https://kailash392.wordpress.com/wp-content/uploads/2019/02/fundamentalsof-computer-algorithms-by-ellis-horowitz.pdf)
+- [Horowitz, E. *Fundamentals of Computer Algorithms*](https://kailash392.wordpress.com/wp-content/uploads/2019/02/fundamentalsof-computer-algorithms-by-ellis-horowitz.pdf)
 
