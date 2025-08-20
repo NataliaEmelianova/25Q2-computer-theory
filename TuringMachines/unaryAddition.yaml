@@ -1,0 +1,19 @@
+name: unaryAddition
+source code: |-
+  input: '111+11'
+  blank: ' '
+  start state: q0
+  symbol:
+    accept: aceita
+  table:
+    q0:
+      1 : {R: q0}
+      + : {write: 1, R: q0}
+      ' ': {L: q1}
+    q1:
+      1: {write: ' ', L: aceita}
+    aceita:
+positions:
+  q0: {x: 451.65, y: 327.82, fixed: false}
+  q1: {x: 323.61, y: 266.88, fixed: false}
+  aceita: {x: 423.19, y: 166.15, fixed: false}
