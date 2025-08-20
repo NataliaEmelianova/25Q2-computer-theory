@@ -18,8 +18,8 @@ Run an algorithm to solve the **fractional knapsack problem**.
 #### Examples
 Codes to be used in [turingmachine.io](https://turingmachine.io/):
 - [Flip Bit](https://turingmachine.io/?import-gist=2130004aff34539c5479aeb2d68f5cc0)
-- Unary Addition
-- Data Copy
+- [Unary Addition](https://turingmachine.io/?import-gist=54cd039a64e4353dc1fc183f9fd17e94)
+- [Data Copy](https://turingmachine.io/?import-gist=18c38c25863220888c09640ad825e1d2)
 - [Logical NOT](https://gist.github.com/NataliaEmelianova/117e994f64c5dd44955e4e2966bb3d2a)
 
 
