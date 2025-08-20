@@ -17,7 +17,7 @@ Run an algorithm to solve the **fractional knapsack problem**.
 
 #### Examples
 Codes to be used in [turingmachine.io](https://turingmachine.io/):
-- [Flip Bit](https://turingmachine.io/)
+- [Flip Bit]([https://turingmachine.io/](https://turingmachine.io/?import-gist=2130004aff34539c5479aeb2d68f5cc0))
 - Unary Addition
 - Data Copy
 - [Logical NOT](https://turingmachine.io/)
