@@ -1,0 +1,32 @@
+name: Data Copy
+source code: |
+  input: 'abaabb'
+  blank: ' '
+  start state: readNew #inicio
+  table:
+    readNew:
+      a: {write: z, R: readA} #если аб то заменяем на z и идеь вправо в состояние ReadA
+      b: {write: x, R: readB}
+      [x, z]: {R: readNew}
+      ' ': {L: rewrite}
+    readA:
+      [a, b, x, z]: {R: readA}
+      ' ': {write: z, L: backToStart}
+    readB:
+      [a, b, x, z]: {R: readB}
+      ' ': {write: x, L: backToStart}
+    backToStart:
+      [a, b, x, z]: {L: backToStart}
+      ' ': {R: readNew}
+    rewrite:
+      x: {write: b, L: rewrite}
+      z: {write: a, L: rewrite}
+      ' ': {L: accept}
+    accept:
+positions:
+  readNew: {x: 412.39, y: 242.55}
+  readA: {x: 195.32, y: 235.76}
+  readB: {x: 591.69, y: 120.91}
+  backToStart: {x: 307.25, y: 103.34}
+  rewrite: {x: 485.58, y: 348.26}
+  accept: {x: 273.14, y: 346.39}

@@ -1,0 +1,16 @@
+name: Logical_NOT
+source code: |
+  # Bitwise NOT for arbitrary-length binary string
+  input: '01100'   # try any binary string, e.g. '1011', '000', '11101'
+  blank: ' '
+  start state: q0
+  table:
+    q0:
+      0: {write: 1, R: q0}  # 0 -> 1, идём вправо
+      1: {write: 0, R: q0}  # 1 -> 0, идём вправо
+      ' ': {R: accept}       # пустая клетка -> стоп
+
+    accept:
+positions:
+  q0: {x: 383.15, y: 326.74}
+  accept: {x: 413.22, y: 189.79, fixed: false}
